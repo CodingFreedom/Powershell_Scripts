@@ -8,8 +8,8 @@ import-module WebAdministration
 if ((!$start_year) -or (!$Backupfolder))
 {
 	Write-Host "Non hai fornito l'anno di inizio o la cartella di destinazione per il salvataggio dei LOG!"  
-    Write-Host "Esempio di uso in Console PS: .\IIS_LOG_Backup.ps1 2011 C:\IIS_LOG_BUP"
-    Write-Host "Esempio di uso in Console DOS: powershell -c "".\IIS_LOG_Backup.ps1 2011 C:\IIS_LOG_BUP"""
+	Write-Host "Esempio di uso in Console PS: .\IIS_LOG_Backup.ps1 2011 C:\IIS_LOG_BUP"
+	Write-Host "Esempio di uso in Console DOS: powershell -c "".\IIS_LOG_Backup.ps1 2011 C:\IIS_LOG_BUP"""
 	Write-Host "Questo eseguibile comprime i LOG IIS a partire dall'anno di inizio fornito e prosegue fino all'anno precedente a quello corrente."
 }
 else 
